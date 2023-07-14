@@ -1,27 +1,27 @@
 - summary: |
    Проверка входа пользователя с существующими логином и паролем
-  status: fail
+   status: fail
 
 - summary: |
     Проверка входа пользователя с несуществующими логином и паролем
-  status: fail 
+    status: fail 
 
-  - summary: |
+- summary: |
      Проверка регистриции
-   status: fail 
+     status: fail 
   
 - summary: |
     Проверка фильтра товаров
-  status: pass
+    status: pass
 
 - summary: |
     Проверка возможности добавить товар в корзину
-  status: pass
+    status: pass
 
 - summary: |
     Проверка корректной работы корзины
-  status: pass
+    status: pass
 
 - summary: |
     Проверка возможности заказа товара
-  status: pass
+    status: pass
