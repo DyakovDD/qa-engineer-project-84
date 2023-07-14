@@ -35,12 +35,12 @@ requirement: |
     При выборе категории товаров открываються товары из выбранных категорий 
 prerequisites:
     Открыта страница магазина
-  test-data: |
+test-data: |
     Выбераем категории товаров
-  steps:
+steps:
     - Выбираем категорию Smartphones
     - Выбираем бренд Apple
-  expected-result: |
+expected-result: |
     Пользователю выводятся товары категории Smartphones бренда Apple
 
 - summary: |
@@ -78,12 +78,12 @@ requirement: |
     При нажатии на кнопку оформить заказ выдается сообщение об успешном оформлении заказа
 prerequisites:
     Открыта страница магазина
-  test-data: |
+test-data: |
       https://hexlet-products-store.vercel.app/
-  steps:
+steps:
     - Выбираем товар
     - Нажимаем кнопку добавить в корзину
     - переходим в корзину 
     - нажимаем кнопку Оформить заказ
-  expected-result: |
+expected-result: |
     Выводится сообщение заказ успешно оформлен
