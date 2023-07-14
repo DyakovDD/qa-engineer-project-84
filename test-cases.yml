@@ -1,17 +1,17 @@
 ---
 - summary: |
     Проверка входа пользователя с существующими логином и паролем
-  requirement: |
+    requirement: |
     При верном вводе логине и пароля пользователь должен войти в систему
-  prerequisites: |
+    prerequisites: |
     открыта страница логина
-  test-data: |
+    test-data: |
     Логин = FoxFox Пароль = nepridymal122
-  steps:
+    steps:
     - Вводим логин
     - Вводим пароль
     - Нажимаем кнопку "Войти"
-  expected-result: |
+    expected-result: |
     Пользователь должен попасть на главную страницу
     
 - summary: |
