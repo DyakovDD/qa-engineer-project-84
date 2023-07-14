@@ -1,89 +1,89 @@
 ---
 - summary: |
     Проверка входа пользователя с существующими логином и паролем
-    requirement: |
+requirement: |
     При верном вводе логине и пароля пользователь должен войти в систему
-    prerequisites: |
+prerequisites: |
     открыта страница логина
-    test-data: |
+test-data: |
     Логин = FoxFox Пароль = nepridymal122
-    steps:
+steps:
     - Вводим логин
     - Вводим пароль
     - Нажимаем кнопку "Войти"
-    expected-result: |
+expected-result: |
     Пользователь должен попасть на главную страницу
     
 - summary: |
     Проверка входа пользователя с несуществующими логином и паролем
-  requirement: |
+requirement: |
     При неправильном логине или пароле пользователь должен получить сообщение об ошибке
-  prerequisites:
+prerequisites:
     Открыта страница логина
-  test-data: |
+test-data: |
     Логин = Логин = 123456 Пароль = 123456
-  steps:
+steps:
     - Вводим логин
     - Вводим пароль
     - Нажимаем кнопку "Войти"
-  expected-result: |
+expected-result: |
    Пользователю выводиться сообщение об ошибке : Неверный логин или пароль
 
 - summary: |
     Проверка фильтра товаров
-  requirement: |
+requirement: |
     При выборе категории товаров открываються товары из выбранных категорий 
-  prerequisites:
+prerequisites:
     Открыта страница магазина
-  test-data: |
+test-data: |
     Выбераем категории товаров
-  steps:
+steps:
     - Выбираем категорию Smartphones
     - Выбираем бренд Apple
-  expected-result: |
+expected-result: |
     Пользователю выводятся товары категории Smartphones бренда Apple
 
 - summary: |
     Проверка возможности добавить товар в корзину
-  requirement: |
+requirement: |
     Товар добавляется в корзину при нажатии на кнопку: добавить товар 
-  prerequisites:
+prerequisites:
     Открыта страница магазина
-  test-data: |
+test-data: |
     https://hexlet-products-store.vercel.app/
-  steps:
+steps:
     - Выбираем товар
     - Нажимаем кнопку добавить в корзину
-  expected-result: |
+expected-result: |
     Товар добавлен в корзину 
 
 - summary: |
     Проверка корректной работы корзины
-  requirement: |
+requirement: |
     Пользователь может увидеть товар добавленный в корзину 
-  prerequisites:
+prerequisites:
     Открыта страница магазина
-  test-data: |
+test-data: |
     https://hexlet-products-store.vercel.app/
-  steps:
+steps:
     - Выбираем товар
     - Нажимаем кнопку добавить в корзину
     - Нажимаем кнопку: корзина 
-  expected-result: |
+expected-result: |
     Пользователю отображаются товары которые он добавил в корзину  
 
 - summary: | 
     Проверка возможности заказа товара
-  requirement: |
+requirement: |
     При нажатии на кнопку оформить заказ выдается сообщение об успешном оформлении заказа
-  prerequisites:
+prerequisites:
     Открыта страница магазина
-  test-data: |
+test-data: |
       https://hexlet-products-store.vercel.app/
-  steps:
+steps:
     - Выбираем товар
     - Нажимаем кнопку добавить в корзину
     - переходим в корзину 
     - нажимаем кнопку Оформить заказ
-  expected-result: |
+expected-result: |
     Выводится сообщение заказ успешно оформлен
