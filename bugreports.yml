@@ -5,7 +5,7 @@
     Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
     ОС Linux 22.04
   steps-to-reproduce: |
-    1. Зайти на страницу логина https://runit.hexlet.ru/login
+    1. Зайти на страницу логина https://hexlet-products-store.vercel.app/
     2. Нажать ссылку регистрация
     3. Зарегистрировать нового пользователя 
   expected-result: |
@@ -19,7 +19,7 @@
     Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
     ОС Linux 22.04
   steps-to-reproduce: |
-    1. Зайти на страницу логина https://runit.hexlet.ru/login
+    1. Зайти на страницу логина https://hexlet-products-store.vercel.app/
     2. Нажать ссылку Личный кабинрет
     3. Войти под существующем логином и паролем
   expected-result: |
