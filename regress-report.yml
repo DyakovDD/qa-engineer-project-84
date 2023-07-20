@@ -9,4 +9,3 @@ test-cases:
   - summary: |
       Проверка регистриции
     status: fail
-bugreports: []
