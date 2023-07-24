@@ -6,6 +6,7 @@
     При удачном исходе страница каталога будет отображаться корректно
   prerequisites: Запущен браузер Google Chrome последней версии
   test-data: | 
+    empty 
   steps:
     - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
   expected-result: |
@@ -18,6 +19,7 @@
     При удачном исходе страница каталога будет отображаться корректно
   prerequisites: Запущен браузер Google Chrome последней версии
   test-data: | 
+    empty 
   steps:
     - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
     - Открыть страницу любого товара из каталога
@@ -31,6 +33,7 @@
     При удачном исходе страница корзины будет отображаться корректно
   prerequisites: Запущен браузер Google Chrome последней версии
   test-data: | 
+    empty 
   steps:
     - Открыть главную страницу сайта https://hexlet-products-store.vercel.app/
     - Добавить 2 любых товара из каталога в корзину
@@ -46,6 +49,7 @@
   prerequisites: Запущен браузер Google Chrome последней версии и добавлено два
     любых товара в корзину и открыта страница корзины
   test-data: | 
+    empty 
   steps:
     - Нажать кнопку "Оформить заказ"
   expected-result: |
@@ -57,6 +61,7 @@
     Страница каталога корректно отображается на мобильных устройствах
   prerequisites: Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: | 
+    empty 
   steps:
     - Открыть страницу https://hexlet-products-store.vercel.app/
     - Открыть Devtools
@@ -71,6 +76,7 @@
     Страница товара корректно отображается на мобильных устройствах
   prerequisites: Открыта страница любого товара из каталога
   test-data: | 
+    empty  
   steps:
     - Открыть страницу https://hexlet-products-store.vercel.app/
     - Открыть любой товар
@@ -86,6 +92,7 @@
     Страница корзины корректно отображается на мобильных устройствах
   prerequisites: Добавить любой товар в корзину и открыть страницу корзины
   test-data: | 
+    empty 
   steps:
     - Открыть страницу https://hexlet-products-store.vercel.app/
     - Добавить любой товар
@@ -102,6 +109,7 @@
     Оформление заказа должно отображаться корректно на мобильных устройствах
   prerequisites: Добавлено два любых товара в корзину и открыта страница корзины
   test-data: | 
+    empty 
   steps:
     - Открыть страницу https://hexlet-products-store.vercel.app/
     - Добавить любой товар
@@ -119,6 +127,7 @@
     Выбраный товар отоброжается в корзине
   prerequisites: Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: | 
+    empty 
   steps:
     - На любой из карточек товара нажать на кнопку "Добавить в корзину"
     - Нажать на кнопку "Корзина"
@@ -131,6 +140,7 @@
     Выбранные одинаковые товары отображаются в корзине
   prerequisites: Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: | 
+    empty 
   steps:
     - На любой из карточек товара дважды нажать на кнопку "Добавить в корзину"
     - Нажать на кнопку "Корзина"
@@ -143,6 +153,7 @@
     Все товары находящиеся в корзине будут удалены
   prerequisites: В корзину добавлено пять любых товаров и открыта страница корзины
   test-data: | 
+    empty 
   steps:
     - Открыть страницу https://hexlet-products-store.vercel.app/
     - Добавить пять любых товаров
@@ -157,6 +168,7 @@
     Пользователя перенаправляет на главную страницу сайта
   prerequisites: Открыта страница корзины https://hexlet-products-store.vercel.app/cart
   test-data: | 
+    empty 
   steps:
     - Нажать на кнопку "Продолжить покупки"
   expected-result: |
@@ -168,6 +180,7 @@
     Пользователю выводиться сообщение об успешном оформлении заказа
   prerequisites: В корзину добавлен любой товар и открыта страница корзины
   test-data: | 
+    empty 
   steps:
     - Открыть страницу https://hexlet-products-store.vercel.app/
     - Добавить любой товар
@@ -183,6 +196,7 @@
     При удачном исходе окно оформления заказа будет закрыто
   prerequisites: Любой товар добавлен в корзину
   test-data: | 
+    empty 
   steps:
     - Открыть страницу https://hexlet-products-store.vercel.app/
     - Добавить любой товар в корзину
@@ -198,6 +212,7 @@
     При удачном исходе окно оформления заказа будет закрыто
   prerequisites: Любой товар добавлен в корзину
   test-data: | 
+    empty 
   steps:
     - Открыть страницу https://hexlet-products-store.vercel.app/
     - Добавить любой товар в корзину
@@ -213,6 +228,7 @@
     Пользователь получает возможность посмотреть подробную информацию о товаре
   prerequisites: Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: | 
+    empty 
   steps:
     - Кликнуть на любой товар
   expected-result: |
@@ -224,6 +240,7 @@
     В каталоге отображаются товары из выбраной категории
   prerequisites: Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: | 
+    empty  
   steps:
     - Открыть страницу https://hexlet-products-store.vercel.app/
     - Нажать на кнопку "Категория"
@@ -237,6 +254,7 @@
     В каталоге отображаются товары от выбраного производителя
   prerequisites: Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: | 
+    empty 
   steps:
     - Открыть страницу https://hexlet-products-store.vercel.app/
     - В столбце "Производитель" выбираем "Samsung"
@@ -250,6 +268,7 @@
     после закрытия вкладки
   prerequisites: Открыта главная страница сайта https://hexlet-products-store.vercel.app/
   test-data: | 
+    empty 
   steps:
     - Открыть страницу https://hexlet-products-store.vercel.app/
     - Добавить любой товар в корзину
