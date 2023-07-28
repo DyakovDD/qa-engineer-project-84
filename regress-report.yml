@@ -144,22 +144,7 @@ bugreports:
     actual-result: |
       Информация о товаре отоброжается не корректно 
 
-  - summary: |
-      Ошибка в работе оформления заказа 
-    environment: |
-      Google Chrome 113.0.5672.127 (Официальная сборка), (64 бит)
-      OC Windows 10 Pro 21H2
-    steps-to-reproduce: |
-      - Зайти на главную страницу сайта https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-      - Добавляем любой товар в корзину
-      - Открыть Корзину
-      - Открыть devtools
-      - Выбрать форму "Console"
-      - Нажать на форму "Оформить заказ"
-    expected-result: | 
-      В консоли все запросы приходят и уходят корректно
-    actual-result: |
-      Отображается ошибка "status":"500","title":"failed","type":"about:blank","detail":"failed"
+
 
 
     
