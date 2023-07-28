@@ -2,15 +2,15 @@
 test-cases:
   - summary: |
      Проверка фильтра каталога "В наличии"
-   status: pass
+    status: pass
 
   - summary: |
      Проверка фильтра каталога "В наличии"
-   status: fail
+    status: fail
 
   - summary: |
      Проверка перехода в категорию по хештегу на странице товара
-   status: pass
+    status: pass
 
   - summary: |
       Проверка фильтра каталога "Цена"
